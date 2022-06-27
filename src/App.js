@@ -1,7 +1,6 @@
 import {Header} from './components/Header'
 import {NavBar} from './components/NavBar'
-import {ToDoBox} from './components/ToDoBox'
-import {AddItemBox} from './components/AddItemBox'
+import {Boxes} from './components/Boxes'
 import {Footer} from './components/Footer'
 
 function App() {
@@ -9,9 +8,8 @@ function App() {
     <div className="App">
       <Header />
       <NavBar />
-      <ToDoBox />
-      <AddItemBox />
-      <Footer />
+      <Boxes />
+      <Footer year={Date()}/>
     </div>
   );
 }

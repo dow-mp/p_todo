@@ -2,6 +2,25 @@
   text-align: center;
 }
 
+.boxes {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 80vw;
+  height: fit-content;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.indBox {
+  border: 5px solid hotpink;
+  padding: 10px;
+  margin: 5px;
+}
+
+.list > ul > li {
+  list-style: circle;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

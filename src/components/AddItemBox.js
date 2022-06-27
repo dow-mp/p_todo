@@ -1,7 +1,5 @@
-
-
 export const AddItemBox = () => {
     return (
-        <p>This is the AddItemBox</p>
+        <p className="indBox">This is the AddItemBox</p>
     )
 }

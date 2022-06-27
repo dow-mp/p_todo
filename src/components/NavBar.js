@@ -1,8 +1,5 @@
-
-
-
 export const NavBar = () => {
     return (
-        <p>This is the NavBar</p>
+        <p>Do we need a navbar? Maybe not...</p>
     )
 }
