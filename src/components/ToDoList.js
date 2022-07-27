@@ -1,4 +1,4 @@
-export const ToDoBox = (props) => {
+export const ContentBox = (props) => {
     return (
         <div className="list">
             <ul>

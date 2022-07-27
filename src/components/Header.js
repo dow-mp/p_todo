@@ -1,5 +1,5 @@
 export const Header = () => {
     return (
-        <h1>Create Your To Do List</h1>
+        <h1>Keep Track of All the Areas of Your Life</h1>
     )
 }
