@@ -1,12 +1,9 @@
-import { AddItemBox } from "./AddToDoItem";
-import { ContentBox } from './ToDoList'
-// import { toDoList } from '../data';
+import { AreaBox } from './AreaBox'
 
-export function Boxes() {
+export function Areas({display}) {
     return (
         <div className="boxes">
-            {/* <ContentBox list={toDoList}/> */}
-            <AddItemBox />
+            {display ? <AreaBox /> : <p>Add an area to track to dos</p>}
         </div>
     )
 }

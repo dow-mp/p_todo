@@ -1,4 +1,4 @@
-export const ContentBox = (props) => {
+export const ToDoList = () => {
     return (
         <div className="list">
             <ul>
@@ -10,7 +10,6 @@ export const ContentBox = (props) => {
                         </li>
                     )
                 })}
-
             </ul>
         </div>
     )

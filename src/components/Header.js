@@ -1,5 +1,18 @@
-export const Header = () => {
+import { AddItemBox } from "./AddItemBox";
+import { useState } from 'react';
+
+export const Header = ({ area, onSubmit, onChange, onClick }) => {
+
     return (
-        <h1>Keep Track of All the Areas of Your Life</h1>
+        <>
+            <h1>{area}</h1>
+            <AddItemBox
+                area={area}
+                onSubmit={onSubmit}
+                onChange={onChange}
+                onClick={onClick}
+                type="area"
+            />
+        </>
     )
 }
